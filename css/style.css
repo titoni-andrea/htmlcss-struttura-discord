@@ -11,7 +11,7 @@ body {
 header {
     background-color: lightblue;
     height: 415px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 nav {
@@ -65,8 +65,7 @@ nav {
 }
 
 main {
-    width: 1200px;
-    margin: 0 auto;
+
 }
 
 .sezione1 {
@@ -79,14 +78,14 @@ main {
 }
 
 .box-1 {
-    width: 60%;
+    width: 53%;
     background-color: rgb(48, 103, 212);
     height: 340px;
     border: dotted black;
 }
 
 .box-2 {
-    width: 40%;
+    width: 27%;
     background-color: pink;
     height: 340px;
     border: dotted black;
@@ -100,4 +99,71 @@ main {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.sezione4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.box-singolo {
+    background-color: green;
+    height: 650px;
+    width: 80%;
+    border: dotted black;
+}
+
+.sezione5 {
+    background-color: #222;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px white;
+    justify-content: center;
+}
+
+.foto1 {
+    background-color: rgb(216, 138, 138);
+    width: 27%;
+    border: dotted black;
+    height: 350px;
+}
+
+.foto2 {
+    background-color: rgb(28, 149, 121);
+    width: 13%;
+    border: dotted white;
+    height: 350px;
+}
+
+.note-legali {
+    background-color: #222;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.info-inutili {
+    background-color: rgb(58, 198, 166);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
+
+.logo-footer {
+    padding: 5px;
+    background-color: rgb(229, 156, 156);
+    border: dotted black;
+}
+
+.bottone {
+    padding: 5px;
+    background-color: rgb(229, 156, 156);
+    border: dotted black;
 }
